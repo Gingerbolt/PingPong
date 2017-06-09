@@ -9,9 +9,10 @@
 _{This page is a demonstration of loop knowledge and an amusing diversion}_
 
 ## Setup/Installation Requirements
-_1. Go to the page by following <a href=https://gingerbolt.github.io/PingPong/>this link</a> in your preferred browser_
-_2.Enter your preferred number_
-
+_<ol>_
+_<li> Go to the page by following <a href=https://gingerbolt.github.io/PingPong/>this link</a> in your preferred browser </li>_
+_<li> Enter your preferred number </li>_
+_</ol>_
 ## Specs
 
 _<li> must reject non integer numbers and symbols</li>_
