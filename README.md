@@ -1,6 +1,6 @@
 # _Ping Pong Script_
 
-#### _Input a number to 'play' Nerd-Pong, June 8, 2017_
+#### _Input a number to 'play' Nerd-Pong, June 9, 2017_
 
 #### By _**Steve Spitz**_
 
