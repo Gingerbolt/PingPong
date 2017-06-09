@@ -9,10 +9,8 @@
 _{This page is a demonstration of loop knowledge and an amusing diversion}_
 
 ## Setup/Installation Requirements
-_1. Go to the page by following <a href=https://github.com/Gingerbolt/PingPong>this link</a>_
-_2. Downloading the repository_
-_3. Open index.html in your preferred browser _
-_4. Enter your preferred number_
+_1. Go to the page by following <a href=https://gingerbolt.github.io/PingPong/>this link</a> in your preferred browser_
+_2.Enter your preferred number_
 
 ## Specs
 
