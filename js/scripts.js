@@ -1,32 +1,32 @@
 uselessOperation1 = function() {
-  resultstring = "<li> Ping-Pong </li>"
+  resultString = "<li> Ping-Pong </li>"
 };
 uselessOperation2 = function() {
-  resultstring = "<li> Pong </li>"
+  resultString = "<li> Pong </li>"
 };
 uselessOperation3 = function() {
-  resultstring = "<li> Ping </li>"
+  resultString = "<li> Ping </li>"
 };
 uselessOperation4 = function() {
-  resultstring = "<li> " + x + " </li>"
+  resultString = "<li> " + x + " </li>"
 };
 uselessOperationReject = function() {
-  resultstring = "Please enter only positive non-zero integers to play!"
+  resultString = "Please enter only positive non-zero integers to play!"
 }
 uselessOperationPrintout = function () {
-  $("#result").append(resultstring);
+  $("#result").append(resultString);
 }
 
 $(document).ready(function() {
   $("form#submissionform").submit(function(event) {
     event.preventDefault();
-    var usernumber = parseInt($("input#userinput").val());
-    var resultstring = ""
-    if (usernumber % 1 != 0 || usernumber <= 0) {
+    var userNumber = parseInt($("input#userinput").val());
+    var resultString = ""
+    if (userNumber % 1 != 0 || userNumber <= 0) {
       uselessOperationReject();
     }
     else {
-      for (x = 1; x <= usernumber; x += 1) {
+      for (x = 1; x <= userNumber; x += 1) {
         if ( x % 15 === 0 && x >= 15) {
         uselessOperation1();
         } else if (x % 5 === 0) {
