@@ -6,6 +6,7 @@ $(document).ready(function() {
     if (userNumber % 1 != 0 || userNumber <= 0) {
       resultString = "Please enter only positive non-zero integers to play!"
     } else {
+      $("#result").empty()
       for (x = 1; x <= userNumber; x += 1) {
         if ( x % 15 === 0 && x >= 15) {
         resultString = "Ping-Pong";
