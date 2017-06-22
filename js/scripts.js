@@ -24,6 +24,7 @@ $(document).ready(function() {
         finalString = finalString + pingPongProcess(x) + "<br>";
       };
     };
+    
     $("#result").empty();
     $("#result").prepend(finalString);
   });
